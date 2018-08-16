@@ -1,0 +1,56 @@
+// DeadByDaylight (2.0.1) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+#include "DBD_OfflineLobby_parameters.hpp"
+
+namespace SDK
+{
+//---------------------------------------------------------------------------
+//Functions
+//---------------------------------------------------------------------------
+
+// Function OfflineLobby.OfflineLobby_C.ReceiveBeginPlay
+// (Event, Public, BlueprintEvent)
+
+void AOfflineLobby_C::ReceiveBeginPlay()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function OfflineLobby.OfflineLobby_C.ReceiveBeginPlay");
+
+	AOfflineLobby_C_ReceiveBeginPlay_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function OfflineLobby.OfflineLobby_C.ExecuteUbergraph_OfflineLobby
+// (HasDefaults)
+// Parameters:
+// int                            EntryPoint                     (Parm, ZeroConstructor, IsPlainOldData)
+
+void AOfflineLobby_C::ExecuteUbergraph_OfflineLobby(int EntryPoint)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function OfflineLobby.OfflineLobby_C.ExecuteUbergraph_OfflineLobby");
+
+	AOfflineLobby_C_ExecuteUbergraph_OfflineLobby_Params params;
+	params.EntryPoint = EntryPoint;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
