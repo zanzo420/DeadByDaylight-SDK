@@ -7,9 +7,9 @@
 #endif
 
 #include "DBD_Basic.hpp"
-#include "DBD_Engine_classes.hpp"
 #include "DBD_MovieScene_classes.hpp"
 #include "DBD_CoreUObject_classes.hpp"
+#include "DBD_Engine_classes.hpp"
 
 namespace SDK
 {

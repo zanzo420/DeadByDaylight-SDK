@@ -8,10 +8,10 @@
 
 #include "DBD_Basic.hpp"
 #include "DBD_CoreUObject_classes.hpp"
+#include "DBD_PacketHandler_classes.hpp"
 #include "DBD_InputCore_classes.hpp"
 #include "DBD_SlateCore_classes.hpp"
 #include "DBD_Slate_classes.hpp"
-#include "DBD_PacketHandler_classes.hpp"
 
 namespace SDK
 {

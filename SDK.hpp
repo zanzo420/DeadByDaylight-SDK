@@ -172,4 +172,3 @@
 #include "SDK/DBD_Lobby_classes.hpp"
 #include "SDK/DBD_BP_TESTDECAL_classes.hpp"
 #include "SDK/DBD_Shop_Static_classes.hpp"
-#include "SDK/DBD_BP_Effect_HalloweenSlasher03_classes.hpp"

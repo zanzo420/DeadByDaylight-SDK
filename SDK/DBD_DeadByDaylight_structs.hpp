@@ -8,12 +8,12 @@
 
 #include "DBD_Basic.hpp"
 #include "DBD_CoreUObject_classes.hpp"
-#include "DBD_OnlineSubsystemUtils_classes.hpp"
+#include "DBD_GameplayTags_classes.hpp"
 #include "DBD_BHVRAnalytics_classes.hpp"
 #include "DBD_Engine_classes.hpp"
-#include "DBD_GameplayTags_classes.hpp"
 #include "DBD_AIModule_classes.hpp"
 #include "DBD_InputCore_classes.hpp"
+#include "DBD_OnlineSubsystemUtils_classes.hpp"
 
 namespace SDK
 {
